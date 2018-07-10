@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A240113020F5481300627573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240112F20F5481300627573 /* AppDelegate.swift */; };
-		A240113220F5481300627573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240113120F5481300627573 /* ViewController.swift */; };
+		A240113220F5481300627573 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240113120F5481300627573 /* ProductViewController.swift */; };
 		A240113520F5481300627573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A240113320F5481300627573 /* Main.storyboard */; };
 		A240113720F5481500627573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A240113620F5481500627573 /* Assets.xcassets */; };
 		A240113A20F5481500627573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A240113820F5481500627573 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		A240112C20F5481300627573 /* Makeup app 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Makeup app 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A240112F20F5481300627573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A240113120F5481300627573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A240113120F5481300627573 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		A240113420F5481300627573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A240113620F5481500627573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A240113920F5481500627573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				A240112F20F5481300627573 /* AppDelegate.swift */,
-				A240113120F5481300627573 /* ViewController.swift */,
+				A240113120F5481300627573 /* ProductViewController.swift */,
 				A240113320F5481300627573 /* Main.storyboard */,
 				A240113620F5481500627573 /* Assets.xcassets */,
 				A240113820F5481500627573 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A240113220F5481300627573 /* ViewController.swift in Sources */,
+				A240113220F5481300627573 /* ProductViewController.swift in Sources */,
 				A240113020F5481300627573 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4W5L8TBYA9;
 				INFOPLIST_FILE = "Makeup app 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4W5L8TBYA9;
 				INFOPLIST_FILE = "Makeup app 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
