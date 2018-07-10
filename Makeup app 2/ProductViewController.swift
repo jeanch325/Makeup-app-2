@@ -9,10 +9,13 @@
 import UIKit
 
 class ProductViewController: UITableViewController {
+    
+    var products = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.title = "Makeup Products"
+        let query = "https://makeup-api.herokuapp.com/api/v1/products.json"
     }
 
     override func didReceiveMemoryWarning() {
