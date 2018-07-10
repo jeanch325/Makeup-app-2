@@ -45,6 +45,17 @@ class ProductViewController: UITableViewController {
         present(alert, animated: true, completion: nil)
         
     }
+    
+    //Step 4
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return products.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        cell.textLabel?.text = products[indexPath.row]
+        return cell
+    }
 
 
     override func didReceiveMemoryWarning() {
